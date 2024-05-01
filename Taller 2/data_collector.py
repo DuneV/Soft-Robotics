@@ -2,7 +2,6 @@ import Sofa.Core
 import numpy as np
 import pandas as pd 
 
-
 class data_sofa(Sofa.Core.Controller):
     
     def __init__(self, presion, quantity, id, *a, **kw):
